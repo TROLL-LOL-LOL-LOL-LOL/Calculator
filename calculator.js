@@ -1,6 +1,6 @@
 // JavaScript Document
 
-//Change Display
+// Change Display
 function d(val) {
 	document.getElementById("d").value = val;
 }
@@ -10,11 +10,11 @@ function v(val) {
 	document.getElementById("d").value += val;
 }
 
-// Evaluate the question
+// Evaluate the equation
 function e() {
-	try{
+	try {
 		d(eval(document.getElementById("d").value));
-}
+	}
 	catch(err) {
 		d("Error");
 	}
