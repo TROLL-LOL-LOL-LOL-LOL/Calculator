@@ -5,7 +5,7 @@
 .box {
 	background-color: #e5e7ea;
 	height: 300px;
-	width: 250px;
+	width: 350px;
 	border-radius: 10px;
 	position: relative;
 	top: 80px;
@@ -15,7 +15,7 @@
 /* Display */
 .display {
 	background-color: #bfc4ce;
-	width: 220px;
+	width: 330px;
 	position: relative;
 	left: 15px;
 	top: 20px;
@@ -26,7 +26,7 @@
 	left: 2px;
 	top: 2px;
 	height: 30px;
-	width: 210px;
+	width: 320px;
 	color: black;
 	background-color: #bccd95;
 	font-size: 21px;
@@ -78,4 +78,7 @@
 .number:active {
 	border-top: black 2px solid;
 	border-bottom: 2px #6f6f6f solid;
+}
+body{
+	background-color: #121231
 }
