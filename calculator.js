@@ -20,4 +20,9 @@ function e() {
 	}
 }
 
+//prevent multiple decimals
+if "."{
+}
+
+
 //The pie function in javascript
